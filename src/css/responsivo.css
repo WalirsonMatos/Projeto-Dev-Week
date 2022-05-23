@@ -1,0 +1,46 @@
+@media( max-width: 1280px){
+    .cabecalho .titulo{
+        font-size: 40px;
+    }
+
+    .selecao-personagens {
+        max-width: 330px;
+    }
+
+    .selecao-personagens .personagem{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media(max-width: 767px){
+    body::before{
+        width: 100%;
+        height: 100%;
+        background-image: url(../img/original.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        opacity: 1;
+    }
+
+    main{
+       padding: 0 5px;
+       justify-content: start;
+        
+    }
+
+    .cabecalho .titulo{
+        font-size: 22px;
+    }
+
+    .personagens .personagem-grande{
+        display: none;
+    }
+}
+
+@media(max-width: 360px){
+    .cabecalho .titulo{
+        font-size: 19px;
+    }
+}
